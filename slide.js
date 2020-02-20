@@ -28,6 +28,9 @@ const images = [
   }, {
     name: "vergissmeinnicht.jpg",
     text: "Offener Abend zum Upcycling durch Nähen - Vergissmeinnicht"
+  }, {
+    name: "kombucha1.jpg",
+    text: "Herstellung von Produkten aus Kombucha-Leder"
   },
 ];
 var BILDER_ORDNER = "bilder/"; // mit / am Ende
