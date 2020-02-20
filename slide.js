@@ -30,13 +30,15 @@ const images = [
     text: "Offener Abend zum Upcycling durch Nähen - Vergissmeinnicht"
   },
 ];
+var BILDER_ORDNER = "bilder/"; // mit / am Ende
+
 
 var imageIndex = -1;
 
 
 function showImage(image) {
   if (image.name) {
-    document.body.style.backgroundImage = "url(bilder/" + image.name + ")";
+    document.body.style.backgroundImage = "url(" + BILDER_ORDNER + image.name + ")";
     var description = document.getElementById("description");
     description.innerText = image.text;
   }
@@ -55,6 +57,12 @@ function previousImage() {
 function loadSlideShow()  {
   nextImage();
   setInterval(nextImage, UMSHLATZEIT_MS);
+  images.forEach(function(image) {
+    var img = document.createElement("img");
+    img.src = BILDER_ORDNER + image.name;
+    img.className = "hidden";
+    document.body.appendChild(img);
+  });
 }
 
 window.addEventListener("load", loadSlideShow);

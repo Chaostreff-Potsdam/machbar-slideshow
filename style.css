@@ -42,3 +42,7 @@ footer a {
   color: white;
 }
 
+.hidden {
+  display: none;
+}
+
