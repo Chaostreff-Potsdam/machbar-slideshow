@@ -1,0 +1,44 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("see javascript") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.3em;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(100, 100, 100, 0.4);
+  border-bottom-width: 1px;
+  color: white;
+}
+
+header h1 {
+  display: inline;
+  padding: 1em;
+}
+
+header span {
+  margin-left: 1em; 
+}
+
+footer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0px;
+  right: 0px;
+  padding: 0.5em;
+  border-top-left-radius: 0.5em;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
