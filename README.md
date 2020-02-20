@@ -2,4 +2,5 @@
 
 Eine Slide-Show für die machBar
 
-https://www.ccc-p.org/machbar-slideshow/
+- https://www.ccc-p.org/machbar-slideshow/
+- https://ogy.de/mbslide
