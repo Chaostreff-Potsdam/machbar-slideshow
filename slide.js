@@ -47,10 +47,28 @@ function nextImage() {
   showImage(images[imageIndex]);
 }
 
+function previousImage() {
+  imageIndex = (imageIndex - 1 + images.length) % images.length;
+  showImage(images[imageIndex]);
+}
+
 function loadSlideShow()  {
   nextImage();
   setInterval(nextImage, UMSHLATZEIT_MS);
 }
 
 window.addEventListener("load", loadSlideShow);
+
+document.addEventListener("keydown", function(event) {
+  // for key codes, see https://stackoverflow.com/a/9310900
+  event = event || window.event;
+  if (event.keyCode == '37') {
+    // left arrow
+    previousImage();
+  }
+  else if (event.keyCode == '39') {
+    // right arrow
+    nextImage();
+  }
+});
 
