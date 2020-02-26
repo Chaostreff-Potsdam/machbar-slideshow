@@ -11,20 +11,11 @@ const images = [
     name: "aquaponik.jpg",
     text: "Elektronik basteln für die Aquaponik-Anlage auf dem freiLand-Gelände"
   }, {
-    name: "repaircafe5.jpg",
-    text: "Beim Repair-Cafe eigenes Reparieren - hier ein Stand beim Flohmarkt"
-  }, {
     name: "aussen.jpg",
     text: "Das Gebäude der machBar im freiLand"
   }, {
     name: "trinkwasserkarte_Potsdam.png",
     text: "Die Trinkwasserkarte - offene Daten nutzen beim OKLab in der machBar"
-  }, {
-    name: "kooperation-slb.jpg",
-    text: "Auswärts unterwegs: die machBar in der Stadt- und Landesbibliothek"
-  }, {
-    name: "kooperation-slb.jpg",
-    text: "Auswärts unterwegs: die machBar in der Stadt- und Landesbibliothek"
   }, {
     name: "vergissmeinnicht.jpg",
     text: "Offener Abend zum Upcycling durch Nähen - Vergissmeinnicht"
